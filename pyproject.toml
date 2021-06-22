@@ -6,12 +6,16 @@ authors = ["Mahmoud alzoubi <mahmoudalzoubi073@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^3.2.4"
+djangorestframework = "^3.12.4"
+djangorestframework-simplejwt = "^4.7.1"
+whitenoise = "^5.2.0"
+django-cors-headers = "^3.7.0"
+gunicorn = "^20.1.0"
+
 
 [tool.poetry.dev-dependencies]
-Django = "^3.2.4"
-black = "^21.6b0"
-flake8 = "^3.9.2"
-djangorestframework = "^3.12.4"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
